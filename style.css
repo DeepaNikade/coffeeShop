@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    background-color: rgb(241, 207, 212);
+}
+nav{
+    display: block;
+    background-image: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-bottom: 30px;
+}
+nav input{
+    position: sticky;
+    width: 70%;
+    height: 60px;
+    background-color: rgb(94, 12, 12);
+    border: none;
+    border-radius: 10px;
+    top: 60px;
+    left: 15%;
+    color: white;
+    padding: 20px;
+}
+main{
+    display: block;
+   
+}
+.menu{
+    display: flex;
+ 
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menuSub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.menuSub h4{
+    padding: 10px;
+}
+.coffeeimages img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px black;
+}
+.description{
+    margin: auto;
+    width: 90%;
+    background-color:rgba(165, 60, 60, 0.3);
+    border-radius: 5px ;
+    box-shadow: 0px 0px 8px brown;
+    color: brown;
+    padding: 30px;
+    margin-bottom: 50px;
+
+
+}
+.description1{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(165, 42, 42, 0.3);
+    border-radius: 5px ;
+    box-shadow: 0px 0px 8px brown;
+    color: brown;
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+.description1 ol li{
+    line-height: 0.9cm;
+}
